@@ -17,7 +17,7 @@ export default {
   data () {
     return {
       standard_value: 86400, // 24시간을 초로 변환한 값
-      half_value: 43200,
+      half_value: 43200, // 12시간을 초로 변환한 값
       time: "pm 01:30:21",
       second_time: '',
       calc_time: false,
